@@ -1,27 +1,15 @@
-.header{
-    background-color: rgb(69, 128, 238);
-    height: 100px;
-    text-align: center;
-}
-.image{
-    float: right;
-    margin-top: -20%;
-}
-#abc {
-    color:yellow;
+body {
+    font-family: "Lato", sans-serif;
 }
 
-#color{
-    color:rgb(35, 35, 112);
-}
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 50px;;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:rgb(240, 240, 87);
+    background-color:rgb(241, 241, 56);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -37,7 +25,7 @@
 }
 
 .sidenav a:hover {
-    color: brown;
+    color: #5e2020;
 }
 
 .sidenav .closebtn {
@@ -47,12 +35,25 @@
     font-size: 36px;
     margin-left: 50px;
 }
+
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  .navigator{
-      float: left;
-      margin-top: -20%;
-      font-size: 50px;
-  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.description{
+    text-align:center;
+    
+}
+.header{
+    text-align: center;
+    background-color:rgb(39, 141, 236);
+}
+.image{
+    float: right;
+    margin-top: -20%;
+}
+.navigator{
+    float: left;
+    margin-top: -20%;
+    font-size: 50px;
+}

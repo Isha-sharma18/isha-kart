@@ -1,0 +1,43 @@
+.main{
+    padding: 20px;
+}
+
+.category{
+    width: 60%;
+    height: 540px;
+    overflow: auto;
+   
+    margin-top: 3%;
+    margin-left: 20%;
+
+
+}
+
+.btn-primary{
+
+  margin-left: 35%;
+   color:black;
+   background-color:skyblue
+}
+.name{
+    width: 20%;
+
+}
+.cost{
+    width: 25%;
+    margin-left: 20%;
+    margin-top:-15px;
+}
+.add{
+    width: 20%;
+    float: right;
+    margin-top:-10px;
+    
+}
+.btn-default{
+    margin-left: 30%;
+    margin-top:90px;
+    color:black;
+    background-color: rgb(18, 197, 18)
+}
+

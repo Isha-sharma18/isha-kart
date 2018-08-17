@@ -1,0 +1,34 @@
+<div class="outer">
+  <div class="box">
+    <div class="form-group ">
+      <div *ngFor=" let item of showItem" class="form-control">
+        <div class="form-inline">
+          <div class="name">
+            <span>{{item.name}}</span>
+          </div>
+          <div class="cost">
+            <span>
+              <b>Cost :</b> Rs{{item.cost}}</span>
+          </div>
+          <div class="add">
+
+          </div>
+          <label></label>
+        </div>
+      </div>
+      <div class="form-control">
+       <div class="form-inline">
+        <div class="name">
+          <span><b>Total</b></span>
+        </div>
+        <div class="cost">
+          {{total}}
+        </div>
+        
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,27 @@
+<div class="main">
+  <div class="category">
+    <div class="form-group ">
+      <div *ngFor=" let item of showItem" class="form-control">
+        <div class="form-inline">
+          <div class="name">
+            <span>
+              <b>Item :</b>{{item.name}}</span>
+          </div>
+          <div class="cost">
+            <span>
+              <b>Cost :</b> {{item.cost}}</span>
+          </div>
+          <div class="add to cart">
+            <button class="btn btn-primary" (click)="add(item)">Add</button>
+          </div>
+          <label></label>
+        </div>
+      </div>
+    </div>
+    <div class="form-control">
+      <button class="btn btn-success" (click)="checkout()">Check-Out</button>
+    </div>
+  </div>
+
+
+</div>
